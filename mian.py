@@ -6,7 +6,7 @@ import requests
 
 
 recognizer = sr.Recognizer()
-newsapi = "984e69a80d06470eb8461d6648bf060b"
+
 
 
 def speak(text):
@@ -80,5 +80,6 @@ if __name__ == "__main__":
             except Exception as e:
                 speak("sorry did you say somthing")
                 print(" error; {0}".format(e))
+
 
 
